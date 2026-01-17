@@ -123,7 +123,7 @@
 			);
 			mainGroup = 193228AE2ACF6AC700966FE1;
 			packageReferences = (
-				193228EA2ACF6B3400966FE1 /* XCLocalSwiftPackageReference "../.." */,
+				193228EA2ACF6B3400966FE1 /* XCRemoteSwiftPackageReference "mux-player-swift" */,
 			);
 			productRefGroup = 193228B82ACF6AC700966FE1 /* Products */;
 			projectDirPath = "";
@@ -386,16 +386,21 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCLocalSwiftPackageReference section */
-		193228EA2ACF6B3400966FE1 /* XCLocalSwiftPackageReference "../.." */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = ../..;
+/* Begin XCRemoteSwiftPackageReference section */
+		193228EA2ACF6B3400966FE1 /* XCRemoteSwiftPackageReference "mux-player-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/muxinc/mux-player-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
 		};
-/* End XCLocalSwiftPackageReference section */
+/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		193228EB2ACF6B3400966FE1 /* MuxPlayerSwift */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = 193228EA2ACF6B3400966FE1 /* XCRemoteSwiftPackageReference "mux-player-swift" */;
 			productName = MuxPlayerSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
